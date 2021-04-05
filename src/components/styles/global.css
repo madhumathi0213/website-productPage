@@ -1,0 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+hr {
+    border-top: 1px dashed grey;
+    max-width:80vw;
+}
