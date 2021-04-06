@@ -1,8 +1,40 @@
-body {
+body ,h1,h2,h4,h6{
+    font-family: 'Open Sans';
     padding: 0;
     margin: 0;
 }
+h3 {
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+}
+h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+p {
+    font-size: 14px;
+    line-height: 1.45;
+    font-weight: 100;
+}
 hr {
     border-top: 1px dashed grey;
-    max-width:80vw;
+    max-width:20vw;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
+  .container {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%; }
+    @media (min-width: 992px) {
+      .container {
+        width: 992px; } }
+    @media (min-width: 1200px) {
+      .container {
+        width: 1024px; } }
+  
