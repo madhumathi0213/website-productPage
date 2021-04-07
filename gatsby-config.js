@@ -22,20 +22,6 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Open Sans`
-          },
-          {
-            family: `Poppins`
-          }
-        ],
-        display: 'swap'
-      }
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

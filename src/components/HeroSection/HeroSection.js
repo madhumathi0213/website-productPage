@@ -1,11 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import logo from '../../images/site-logo.png';
+import "@fontsource/open-sans";
+import "@fontsource/poppins";
+import Header from '../header';
+import BgImage from '../../images/banner.svg';
+import Button from '../customComponents/CustomButton';
 
 const HeroSectionWrapper = styled.div`
     color : #F5F5F7;
-    min-height:55vh;
-    background:#353839;
+    background: linear-gradient(180deg, #FF3E3E 13.03%, #CB2929 92.69%);
     .content {
         display:flex;
     }
@@ -17,11 +21,20 @@ const HeroSectionWrapper = styled.div`
         margin:auto auto;
         padding:50px 10px;
         .image {
-             max-height:200px;
+            max-height:200px;
         }
     }
     h2 {
         margin-bottom :20px;
+        font-family:poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 66px;
+     }
+     p {
+        font-family:open-sans;
+        font-size: 16px;
      }
      
 `;
@@ -29,14 +42,16 @@ const HeroSectionWrapper = styled.div`
 const HeroSection = () => {
     return (
         <HeroSectionWrapper>
+            <Header />
             <div className="container">
                 <div className="content">
                     <div className="left-content">
-                        <h2>Empower yourself</h2>
-                        <p>Pentafox Technologies is a Data age IT product solutions startup focused on transforming all kinds of business to the next level with the power of Cloud embedded with intelligence from wide range of AI/ML capabilities. Let’s discuss over a cup of coffee if you have an interesting usecase to solve!Pentafox Technologies is a Data age IT product solutions startup focused on transforming all kinds of business to the next level with the power of Cloud embedded with intelligence from wide range of AI/ML capabilities</p>
+                        <h2>Products</h2>
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter. </p>
+                        <Button bgColor={"white"} child={"For Demo"} hoverColor={"white"} hoverBg={"black"}/>
                     </div>
                     <div className="right-content">
-                        <img src={logo} className="image"></img>
+                        <img src={logo} className="image" alt="alterr"></img>
                     </div>
                 </div>
             </div>

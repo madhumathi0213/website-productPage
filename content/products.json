@@ -1,17 +1,17 @@
 [
     {
         "title": "CloudOps",
-        "content": "Let’s discuss over a cup of coffee if you have an interesting usecase to solve!Pentafox Technologies is a Data age IT product solutions startup focused on transforming all kinds of business to the next level with the power of Cloud embedded with intelligence from wide range of AI/ML capabilities",
+        "content":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "image": "../src/images/undraw1.svg"
     },
     {
         "title": "DevOps",
-        "content": "Let’s discuss over a cup of coffee if you have an interesting usecase to solve!Pentafox Technologies is a Data age IT product solutions startup focused on transforming all kinds of business to the next level with the power of Cloud embedded with intelligence from wide range of AI/ML capabilities",
+        "content":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "image": "../../../src/images/undraw2.svg"
     },
     {
         "title": "Cloud Migration",
-        "content": "Let’s discuss over a cup of coffee if you have an interesting usecase to solve!Pentafox Technologies is a Data age IT product solutions startup focused on transforming all kinds of business to the next level with the power of Cloud embedded with intelligence from wide range of AI/ML capabilities",
+        "content":"Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
         "image": "../src/images/undraw3.svg"
     }
 ]

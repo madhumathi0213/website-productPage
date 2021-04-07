@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import logo from '../images/logo.svg';
 
 
 export const HeaderWrapper = styled.header`
-  background-color:#353839;
   text:white;
   padding:12px;  
   img {
@@ -17,8 +16,9 @@ export const HeaderWrapper = styled.header`
 const Header = () => {
   return (
     <HeaderWrapper>
-      <div className="container">
-        <Link to="/"><img src={logo} className="img"></img></Link>
+      <div key={1} className="container">
+        <img src={logo} className="img" alt=" alter"></img>
+        <p></p>
       </div>
     </HeaderWrapper>
   );
