@@ -31,6 +31,23 @@ hr {
     margin-right: auto;
     margin-left: auto;
     width: 95%; }
+    @media screen and (max-width: 760px) {
+      .container {
+        width:90%;
+      }
+    }
+    @media screen and (max-width: 760px) {
+      hr {
+        margin-top :10px;
+        margin-bottom:15px;
+      }
+    }
+    @media screen and (max-width: 760px) {
+      hr {
+        margin-top :10px;
+        margin-bottom:15px;
+      }
+    }
     @media (min-width: 992px) {
       .container {
         width: 992px; } }

@@ -1,27 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
-// import logo from '../../images/site-logo.png';
 import "@fontsource/open-sans";
 import "@fontsource/poppins";
 import Header from '../header';
 import BgImage from '../../images/banner.png';
 import Button from '../customComponents/CustomButton';
 import icon1 from '../../images/icon_group.svg';
-import icon2 from '../../images/icon_1.svg';
-import icon3 from '../../images/icon_2.svg';
 
 const HeroSectionWrapper = styled.div`
     color : #F5F5F7;
-    background: linear-gradient(180deg, #FF3E3E 13.03%, #CB2929 92.69%);
     background: url(${BgImage}) no-repeat;
     background-size:100% 100%;
     min-height:60vh;
-
+    @media screen and (max-width: 760px) {
+        width:100%;
+        text-align:center;
+        background: linear-gradient(180deg, #FF3E3E 13.03%, #CB2929 92.69%);
+        min-height:40vh;
+    }
+    @media screen and (max-width: 768px) {
+        min-height:35vh;
+        background: linear-gradient(180deg, #FF3E3E 13.03%, #CB2929 92.69%);   
+    }
     .content {
         display:flex;
     }
     .left-content {
         width:50%;
+        @media screen and (max-width: 760px) {
+            width:100%;
+          }
     }
     .right-content {
         margin:auto auto;
@@ -29,20 +37,25 @@ const HeroSectionWrapper = styled.div`
         .image {
             max-height:200px;
         }
+        @media screen and (max-width: 760px) {
+            display:none;
+          }
     }
     h2 {
         margin-bottom :20px;
         font-family:poppins;
         font-style: normal;
         font-weight: 500;
-        font-size: 44px;
-        line-height: 66px;
+        font-size: 28px;
+        line-height: 1.45;
+        @media screen and (max-width: 760px) {
+            margin-bottom:10px;
+            font-size:20px;
+        }
      }
      p {
         font-family:open-sans;
-        font-size: 16px;
-     }
-    
+    } 
 `;
 
 const HeroSection = () => {
