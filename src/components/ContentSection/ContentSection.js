@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import data from '../../../content/products.json';
 import image from '../../images/cart.svg';
-import "@fontsource/open-sans";
 import "@fontsource/poppins";
+import "@fontsource/open-sans";
 import Button from '../customComponents/CustomButton';
 
 export const ContentSectionWrapper = styled.div`
@@ -30,11 +30,11 @@ export const ContentSectionWrapper = styled.div`
         font-size: 44px;
         line-height: 66px;
         color: #000000;
-        font-family:open-sans;
+        font-family:poppins;
         font-size: 28px;
     }
     p {
-        font-family : poppins;
+        font-family : open-sans;
         font-size: 14px;
         line-height: 1.45;
         color: #19181d;

@@ -1,13 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
+import '@fontsource/roboto';
+
 
 
 const Button = (props) => {
     const ButtonCustom = styled.button`
+    font-family:roboto;
     background-color :${props.bgColor};
     font-size:16px;
     height :50px;
-    width:15vw;
+    width:160px;
     border:1px solid gray;
     padding:10px;
     margin:20px 20px 20px 0;
